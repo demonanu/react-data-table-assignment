@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Make AntD pagination scrollable horizontally */
+
 .custom-pagination {
   @apply overflow-x-auto flex-nowrap flex gap-1 px-2;
 }

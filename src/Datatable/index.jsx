@@ -73,7 +73,7 @@ const Datatable = () => {
       },
    ];
 
-   // 🔍 Live Search (by Name only)
+   
    const handleSearch = (e) => {
       const value = e.target.value.toLowerCase();
       setSearchText(value);
@@ -88,7 +88,7 @@ const Datatable = () => {
       }
    };
 
-   // 🔄 Reset filters
+   
    const clearAll = () => {
       setSortedInfo({});
       setSearchText("");
@@ -103,10 +103,9 @@ const Datatable = () => {
               Data Table Assignment
             </h1>
 
-            {/* Search + Reset */}
             <div className="flex flex-col sm:flex-row items-center justify-between gap-3 mb-4">
                <Input
-                  placeholder="🔍 Search by Name"
+                  placeholder="Search by Name"
                   onChange={handleSearch}
                   type="text"
                   allowClear
@@ -121,7 +120,6 @@ const Datatable = () => {
                </Button>
             </div>
 
-            {/* Data Table */}
             <Table
                columns={columns}
                dataSource={filteredData.length ? filteredData : modifiedData}
