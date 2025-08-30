@@ -1,11 +1,11 @@
-# 📊 React Data Table Assignment
+## React Data Table Assignment
 
 This project is a **Data Table built with React + Ant Design + Tailwind CSS**.  
 It was created as part of my assignment for **xto10x**.
 
 ---
 
-## 🚀 Features
+## Features
 - Fetches JSON data from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/comments)
 - Displays data in a responsive table
 - Sorting on all columns (ID, Name, Email, Comment)
@@ -16,7 +16,7 @@ It was created as part of my assignment for **xto10x**.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **React**
 - **Ant Design** (UI components)
 - **Tailwind CSS** (styling)
@@ -25,11 +25,11 @@ It was created as part of my assignment for **xto10x**.
 
 ---
 
-## ▶️ Run Locally
+## Run Locally
 
 Clone the repository:
 
-```bash
+
 git clone https://github.com/demonanu/react-data-table-assignment.git
 cd react-data-table-assignment
 npm install
